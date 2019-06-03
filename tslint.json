@@ -29,7 +29,7 @@
     "max-classes-per-file": false,
     "max-line-length": [
       true,
-      140
+      120
     ],
     "member-access": false,
     "member-ordering": [
@@ -88,5 +88,14 @@
   },
   "rulesDirectory": [
     "codelyzer"
-  ]
+  ],
+  "quotemark": [
+    true,
+    "single"
+    ],
+    "semicolon": [
+      true,
+      "never"
+      ]
+
 }
